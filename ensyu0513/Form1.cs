@@ -20,7 +20,8 @@ namespace ensyu0513
         private void button1_Click(object sender, EventArgs e)
         {
             int a = 1;
-            MessageBox.Show("" +10 / a);
+            MessageBox.Show("" + 10 / a);
+            mybutton.Visible = false;
         }
     }
 }
